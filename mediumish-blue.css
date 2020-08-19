@@ -13599,8 +13599,7 @@ h1.entry-title {
   font-size: 13px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  background: transparent;
-  width: 650px;
+  background: #eff2f4;
   border-width: 1px;
   border-style: solid;
 }
@@ -13889,8 +13888,8 @@ ul.post-categories li a:hover {
 }
 
 .btn.follow {
-  border-color: ##00b9ed;
-  color: ##00b9ed;
+  border-color: #02B875;
+  color: #1C9963;
   padding: 3px 10px;
   text-align: center;
   border-radius: 999em;
@@ -16580,30 +16579,3 @@ h6 {
     background-color: rgba(255, 255, 255, .97);
   }
 }
-
-<!-- Effect Hover Card -->
-
-.card {
-  --bg-img: #ffd861;
-  --bg-color: #ffd861;
-  --bg-color-light: #ffeeba;
-  --text-color-hover: #4C5656;
-  --box-shadow-color: rgba(255, 215, 97, 0.48);
-}
-
-
-.card {
-  border-radius: 15px;
-  display: flex;
-  position: relative;
-  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
-  transition: all 0.3s ease-out;
-  text-decoration: none;
-}
-
-.card:hover {
-  transform: translateY(-5px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
-    0 24px 46px var(--box-shadow-color);
-}
-
